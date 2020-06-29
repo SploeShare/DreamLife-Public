@@ -1,5 +1,5 @@
 - name: Close Pull
-        uses: peter-evans/close-pull@v1.1.1
+        uses: peter-evans/close-pull@v1
         with:
           comment: Auto-closing pull request
           delete-branch: true
