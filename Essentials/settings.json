@@ -1,0 +1,401 @@
+{
+  "General": {
+    "Version": "3.0.1",
+    "AnnounceInterval": 180,
+    "KeepAllItemsOnDeath": false,
+    "KeptItemsOnDeath": [],
+    "LocalChatOverHead": true,
+    "LocalChatInChat": false,
+    "LimitNames": true
+  },
+  "Announcements": [],
+  "Messages": {
+    "DiscordLink": "https://discord.gg/xxxxxx"
+  },
+  "Levenshtein": {
+    "GiveMode": "Suggest",
+    "WarpMode": "Suggest",
+    "KitMode": "Suggest",
+    "SetJobMode": "Suggest"
+  },
+  "Commands": [
+    {
+      "CommandName": "Essentials",
+      "Commands": [
+        "essentials",
+        "ess"
+      ]
+    },
+    {
+      "CommandName": "Info",
+      "Commands": [
+        "info",
+        "stats"
+      ]
+    },
+    {
+      "CommandName": "OnlinePlayers",
+      "Commands": [
+        "players",
+        "online"
+      ]
+    },
+    {
+      "CommandName": "Atm",
+      "Commands": [
+        "atm",
+        "bank",
+        "bal",
+        "balance",
+        "deposit",
+        "withdraw"
+      ]
+    },
+    {
+      "CommandName": "Feed",
+      "Commands": [
+        "feed"
+      ]
+    },
+    {
+      "CommandName": "Heal",
+      "Commands": [
+        "heal",
+        "hp"
+      ]
+    },
+    {
+      "CommandName": "Save",
+      "Commands": [
+        "save",
+        "savegame"
+      ]
+    },
+    {
+      "CommandName": "Free",
+      "Commands": [
+        "free"
+      ]
+    },
+    {
+      "CommandName": "Kill",
+      "Commands": [
+        "kill"
+      ]
+    },
+    {
+      "CommandName": "Arrest",
+      "Commands": [
+        "arrest"
+      ]
+    },
+    {
+      "CommandName": "Restrain",
+      "Commands": [
+        "restrain"
+      ]
+    },
+    {
+      "CommandName": "ClearWanted",
+      "Commands": [
+        "clearwanted",
+        "cw"
+      ]
+    },
+    {
+      "CommandName": "Launch",
+      "Commands": [
+        "launch",
+        "takeoff"
+      ]
+    },
+    {
+      "CommandName": "Slap",
+      "Commands": [
+        "slap",
+        "slp"
+      ]
+    },
+    {
+      "CommandName": "Knockout",
+      "Commands": [
+        "knockout",
+        "ko"
+      ]
+    },
+    {
+      "CommandName": "ToggleChat",
+      "Commands": [
+        "t",
+        "tchat",
+        "togglechat",
+        "tc"
+      ]
+    },
+    {
+      "CommandName": "Promote",
+      "Commands": [
+        "promote"
+      ]
+    },
+    {
+      "CommandName": "Disconnect",
+      "Commands": [
+        "disconnect",
+        "dconnect",
+        "dc"
+      ]
+    },
+    {
+      "CommandName": "PmUser",
+      "Commands": [
+        "pm",
+        "pmuser"
+      ]
+    },
+    {
+      "CommandName": "ReplyUser",
+      "Commands": [
+        "r",
+        "ruser",
+        "replyuser"
+      ]
+    },
+    {
+      "CommandName": "TpaUser",
+      "Commands": [
+        "tpa",
+        "tprequest",
+        "teleportrequest"
+      ],
+      "AllowWhileDead": false,
+      "AllowWithCrimes": false,
+      "AllowWhileCuffed": false,
+      "AllowWhileJailed": false
+    },
+    {
+      "CommandName": "TpaAccept",
+      "Commands": [
+        "tpaccept",
+        "tpaaccept",
+        "tpaa",
+        "accept"
+      ],
+      "AllowWhileDead": false,
+      "AllowWithCrimes": false,
+      "AllowWhileCuffed": false,
+      "AllowWhileJailed": false
+    },
+    {
+      "CommandName": "TpaDeny",
+      "Commands": [
+        "tpdeny",
+        "tpadeny",
+        "tpad",
+        "deny"
+      ]
+    },
+    {
+      "CommandName": "Back",
+      "Commands": [
+        "back",
+        "return"
+      ]
+    },
+    {
+      "CommandName": "Teleport",
+      "Commands": [
+        "tp",
+        "teleport"
+      ]
+    },
+    {
+      "CommandName": "TeleportHere",
+      "Commands": [
+        "tph",
+        "tphere"
+      ]
+    },
+    {
+      "CommandName": "TeleportCoordinates",
+      "Commands": [
+        "tpc"
+      ]
+    },
+    {
+      "CommandName": "Warp",
+      "Commands": [
+        "warp"
+      ],
+      "AllowWhileDead": false,
+      "AllowWithCrimes": false,
+      "AllowWhileCuffed": false,
+      "AllowWhileJailed": false
+    },
+    {
+      "CommandName": "WarpCreate",
+      "Commands": [
+        "createwarp"
+      ]
+    },
+    {
+      "CommandName": "WarpList",
+      "Commands": [
+        "listwarp",
+        "warps"
+      ]
+    },
+    {
+      "CommandName": "Kit",
+      "Commands": [
+        "kit"
+      ]
+    },
+    {
+      "CommandName": "KitCreate",
+      "Commands": [
+        "createkit"
+      ]
+    },
+    {
+      "CommandName": "KitList",
+      "Commands": [
+        "listkit",
+        "kits"
+      ]
+    },
+    {
+      "CommandName": "Ban",
+      "Commands": [
+        "ban",
+        "forceban"
+      ]
+    },
+    {
+      "CommandName": "Kick",
+      "Commands": [
+        "kick",
+        "forcekick"
+      ]
+    },
+    {
+      "CommandName": "Give",
+      "Commands": [
+        "give"
+      ]
+    },
+    {
+      "CommandName": "SpawnVehicle",
+      "Commands": [
+        "vehicle",
+        "v",
+        "sv"
+      ]
+    },
+    {
+      "CommandName": "LockVehicle",
+      "Commands": [
+        "lockvehicle",
+        "lv"
+      ]
+    },
+    {
+      "CommandName": "RepairVehicle",
+      "Commands": [
+        "repairvehicle",
+        "rv"
+      ]
+    },
+    {
+      "CommandName": "Discord",
+      "Commands": [
+        "discord",
+        "discordlink",
+        "discordinvite"
+      ]
+    },
+    {
+      "CommandName": "WarnList",
+      "Commands": [
+        "warns",
+        "listwarns"
+      ]
+    },
+    {
+      "CommandName": "Warn",
+      "Commands": [
+        "warn"
+      ]
+    },
+    {
+      "CommandName": "WarnRemove",
+      "Commands": [
+        "removewarn"
+      ]
+    },
+    {
+      "CommandName": "ToggleSpyChat",
+      "Commands": [
+        "spy",
+        "tspy"
+      ]
+    },
+    {
+      "CommandName": "StaffChat",
+      "Commands": [
+        "staffchat",
+        "sc"
+      ]
+    },
+    {
+      "CommandName": "ToggleBypass",
+      "Commands": [
+        "bypass",
+        "togglebypass"
+      ]
+    },
+      {
+      "CommandName": "Home",
+      "Commands": [
+        "home"
+      ],
+      "AllowWhileDead": false,
+      "AllowWithCrimes": false,
+      "AllowWhileCuffed": false,
+      "AllowWhileJailed": false
+    },
+   {
+      "CommandName": "Pay",
+      "Commands": [
+        "pay"
+      ],
+      "AllowWhileDead": false,
+      "AllowWithCrimes": false,
+      "AllowWhileCuffed": false
+    },
+    {
+      "CommandName": "ToggleMute",
+      "Commands": [
+        "mute"
+      ]
+    },
+    {
+      "CommandName": "Sudo",
+      "Commands": [
+        "sudo"
+      ]
+    },
+    {
+      "CommandName": "SetJob",
+      "Commands": [
+        "setjob"
+      ]
+    },
+    {
+      "CommandName": "Jail",
+      "Commands": [
+        "jail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+[
+   {
+    "Type": "AccountID",
+    "Name": "Admin",
+    "Tag": "[&1Admin]",
+    "Permissions": [
+      "bp.banRecords",
+      "bp.kick",
+      "bp.ban",
+      "bp.banAccount",
+      "bp.playerRecords",
+      "bp.unbanAccount",
+      "bp.restrain",
+      "bp.teleport",
+      "bp.heal",
+      "bpe.info",
+      "bpe.repairvehicle",
+      "bpe.arrest",
+      "bpe.restrain",
+      "bpe.kick",
+      "bpe.home",
+      "bpe.info",
+      "bpe.feed",
+      "bpe.heal",
+      "bpe.free",
+      "bpe.back",
+      "bpe.teleport",
+      "bp.summon",
+      "bpe.teleportcoordinates",
+      "bpe.teleporthere",
+      "bpe.ban",
+      "bpe.kick",
+      "bpe.lockvehicle",
+      "bpe.repairevehicle",
+      "bpe.warn",
+      "bpe.warnlist",
+      "bpe.clearwanted",
+      "bpe.jail",
+      "bpe.setjob",
+      "bpe.save",
+      "bp.save",
+      "bpe.staffchat",
+      "bpe.receivestaffchat",
+      "bpe.warnlist.viewotherplayers",
+      "bpe.togglemute",
+      "bpe.promote",
+      "bpe.togglespychat",
+      "bpe.sudo",
+      "bp.voteStart",
+      "bpe.togglebypass",
+      "bpe.knockout",
+      "bpe.launch"
+    ],
+    "CustomData": {
+    },
+    "Members": [
+        "Player1",
+        "Player2",
+        "Player3"
+    ],
+    "Inherits": [
+      "Player"
+      ]
+  },
+   {
+    "Type": "AccountID",
+    "Name": "Player",
+    "Tag": "",
+    "Permissions": [
+      "bp.help",
+      "game.*",
+      "bpe.discord",
+      "bpe.atm",
+      "bpe.tpauser",
+      "bpe.tpaaccept",
+      "bpe.tpadeny",
+      "bpe.onlineplayers",
+      "bpe.pay",
+      "bpe.replyuser",
+      "bpe.pmuser"
+    ],
+    "CustomData": {
+    },
+    "Members": [
+      "*"
+    ],
+    "Inherits": [
+    ]
+  }  
+]

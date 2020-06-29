@@ -1,0 +1,87 @@
+/* Settings
+  This is the server configuration file. This file will be read and used by the sever on bootup.
+  Use of this server requires accordance with the eula.txt in the game directory.
+*/
+
+{
+  // The server name that will be broadcasted to the master server. (max: 48 | default: 'Unconfigured Server')
+  "serverName": "[TH] DreamLife | discord.gg/xxxxxx",
+
+  // A short description about the server. (max: 256 | default: 'My Unconfigured Server')
+  "shortDescription": "DreamLife",
+
+  // The maximum player count. (max: 255 | default: 32)
+  "players": 255,
+
+  // The hostname used to bind to the network transport. Do not change unless you know what you're doing. (default: '')
+  "hostName": "",
+
+  // Should this server be whitelisted? See whitelist.txt for more info. (default: false)
+  "whitelist": false,
+
+  // The map the server will serve. (default: 'Default')
+  "map": "DreamLife",
+  
+  // A list of tags that will be displayed on various places. Per tag max length is 16 characters. You can have a max of 6 tags on your server. Should be used for tags like "RP", "ENG", etc. (default: [])
+  "tags": ["DreamLife", "Default"],
+
+  // The length of a full day, in seconds. (default: 1440.0)
+  "dayLength": 1440.0,
+
+  // The difficulty of the server. This will affect AI Strength. (default: 0.5)
+  "difficulty": 1.0,
+
+  // How much money players start a new account with. (default: 1000)
+  "startMoney": 0,
+
+  // Is CEF enabled on this server? (default: false)
+  "cef": false,
+
+  // Announcements sent as chat messages to all players on a regular interval. Edit "announcements.txt."
+  "announcements": {
+
+    // Are announcments enabled. (default: true)
+    "enabled": true,
+
+    // How often announcements are broadcasted in seconds. (default: 60.0)
+    "interval": 120.0
+  },
+
+  "http": {
+
+    // Port to register the HTTP server to. (default: 8080)
+    "port": 8080,
+
+    // Should the HTTP server use HTTPS? (default: false)
+    "https": false,
+
+    // The UrlPrefix. Do not change unless you know what you're doing. (default: '*')
+    "internalHost": "*"
+  },
+  
+  "auth": {
+    // Use Steam authentication on the server, else username/password required (default: false)
+    "steam": false,
+
+    // REQUIRED IF "steam" is true
+    // Request your Web API key here: https://steamcommunity.com/dev/apikey - For "Domain Name" enter your public server IP
+    // An example key would be: "E78FFFF54F8797FFDDDC4EA29777BBB" (has been revoked since, also was never an valid key) (default: '')
+    "webkey": ""
+  },
+  
+  "database": {
+    // This is the connection string passed to the LiteDB database instance. {0} will automatically be converted to your database path variable below this one. For all possible connection strings, visit this link: https://github.com/mbdavid/LiteDB/wiki/Connection-String
+    "connectionString": "Upgrade=true;",
+
+    // This is the path to the users.db file (can be renamed) By default this is in "Path.Combine(Application.persistentDataPath, "users.db")", aka "%USERPROFILE%\AppData\LocalLow\CylinderStudios\BrokeProtocol\users.db". 
+    // Internally uses ExpandEnvironmentVariables so environment variables are allowed.
+    // When left empty or null, will select the default path.
+    "path": null
+  },
+
+  // The data transfer cap in Bytes per second. Don't exceed about half of your Server upload limit so in-game players don't lag when others join. (default: 400000)
+  "maxTransferRate": 520000,
+
+  // The port to bind the game to. (default: 5557)
+  "port": 5557
+}

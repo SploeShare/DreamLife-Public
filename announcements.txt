@@ -1,0 +1,35 @@
+&7Note that holding Shift/Alt can control vehicle speeds
+&7If you need to bomb the prison or bank vaults open, try searching the military base
+&7Watch out, Spec Ops will be called in if you hit wanted level 3
+&7Visit ATMs around the map to store your cash safely
+&7Vending machines and food shops can restore some of your stats
+&7Buy an apartment for safe keeping your valuables
+&7You can invite other players into your apartment if they are close enough
+&7Use a safe/chest in your apartment if you want an inventory only you can access
+&7Find a bed or grab some caffiene to replenish your energy
+&7Wearing a backpack will double your carrying capacity
+&7Headshots do more damage, wear armor to protect yourself
+&7Right click to block during melee fights
+&7Buy a phone to call a taxi or emergency services directly to your location
+&7Trade with civilians for quick cash, they'll tell you what they want
+&7Merchants buying/selling price depends on their current stock supply
+&7You can sell back stuff to merchants, at a reduced rate of course
+&7Drugs will replenish health, just avoid a drug test while under the influence
+&7You can get a DUI if you fail a drug test and have recently driven
+&7Gang members can start a turf war by killing 3 enemies in a rival territory
+&7Find the mayor to request gun, driving, boating, and pilot's licenses
+&7Change your disguise after committing crimes to reduce its expiration
+&7Killing witnesses is another way to reduce your crime expiration time
+&7Most crimes need a witness to actually be registered
+&7You can't access ATMs while having a Wanted Level
+&7You buy drugs processing tables in your apartment
+&7Seeds can only be planted in grass or dirt, look for a suitable area
+&7There's a slight chance to uncuff yourself by pressing Left Mouse Button
+&7Watch out for Cops! Live players can taze you and then easily cuff and search you
+&7Police can only legally confiscate illegal items (yellow tooltip) during searches
+&7With higher Job Level comes better equipment and higher salary
+&7AI law enforcement will detect criminals more slowly in crowded areas
+&7Make sure you disarm explosives so you can safely collect them
+&7Morphine, drugs, or alcohol may be used to heal Pain injuries
+&7Check the tooltips on medical items to see what injuries they can heal
+&7Chest or abdomen injuries will cause hunger, dehydration, or energy loss
